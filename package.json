@@ -1,0 +1,20 @@
+{
+  "name": "micro-getting-started",
+  "version": "0.0.0",
+  "description": "zeit micro on LeanEngine",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro --listen tcp://0.0.0.0:$LEANCLOUD_APP_PORT",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "keywords": [],
+  "author": "Jang Rush <weakish@gmail.com>",
+  "license": "0BSD",
+  "dependencies": {
+    "micro": "^9.3.4",
+    "micro-fork": "^2.0.0"
+  }
+}
