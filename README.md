@@ -15,7 +15,7 @@ Make sure you have installed [lean-cli] and have created an application at [Lean
 Then run the following command to bind the application:
 
 ```sh
-git clone https://github.com/weakish/fastify-getting-started your-project-name
+git clone https://github.com/weakish/micro-getting-started your-project-name
 cd your-project-name
 lean switch
 ```
